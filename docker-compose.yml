@@ -3,7 +3,7 @@ services:
   db:
     image: mariadb
     ports:
-      - '13306:3306'
+      - '18806:3306'
     command: --default-authentication-plugin=mysql_native_password --max_allowed_packet=325058560
     restart: always
     environment:
