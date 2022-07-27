@@ -12,21 +12,5 @@ data class ConfigInfo
     var hello: String,
 ) {
 
-    @JvmName("setHello1")
-    fun setHello(hello: String) {
-        this.hello = this.hello
-    }
-
 }
-//@ConfigurationProperties(prefix = "general", ignoreUnknownFields = false)
-//@ConstructorBinding
-//class ConfigInfo {
-//
-//    public val hello: String? = null
-//}
-//
-//@ConfigurationProperties(prefix = "general", ignoreUnknownFields = false)
-//fun setHello(): ConfigInfo? {
-//    return ConfigInfo()
-//}
 

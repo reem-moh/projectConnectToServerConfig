@@ -3,11 +3,15 @@ package com.project.project1.data.Entity
 import javax.persistence.*
 
 @Entity
-class users(
+class Book(
     @Id
-    var id: String,
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    var id: Long,
 
     @Column(nullable = false)
     var name: String,
+
 ) {
+
+
 }
